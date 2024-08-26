@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu CSS personalizado -->
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2c3e50; /* Color de fondo similar al de la página de registro */
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-custom {
+      background-color: #333;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .navbar-custom .navbar-brand {
+      color: #ffcc00;
+      font-weight: bold;
+      font-size: 1.75rem;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      transition: color 0.3s ease-in-out;
+    }
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ffcc00;
+    }
+    .card {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+    .card-title {
+      color: #ffcc00;
+    }
+    .btn-primary {
+      background-color: #ffcc00;
+      border-color: #ffcc00;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #e6b800;
+      border-color: #e6b800;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mi Página</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pagina_inicio_sesion.html">Ingresar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container mt-5">
+  <div class="row">
+    <!-- Tarjeta 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="en.jpg" class="card-img-top" alt="Empresa de energía">
+        <div class="card-body">
+          <h5 class="card-title">Empresa de energía</h5>
+          <p class="card-text">Inscripciones abiertas</p>
+          <a href="pagina1.html" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+    <!-- Tarjeta 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="uk.jpg" class="card-img-top" alt="Ukumari">
+        <div class="card-body">
+          <h5 class="card-title">Ukumari</h5>
+          <p class="card-text">Inscripciones abiertas</p>
+          <a href="pagina2.html" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+    <!-- Tarjeta 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="bi.jpg" class="card-img-top" alt="Biblioteca de comfamiliar">
+        <div class="card-body">
+          <h5 class="card-title">Biblioteca de Comfamiliar</h5>
+          <p class="card-text">Inscripciones abiertas</p>
+          <a href="pagina3.html" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+    <!-- Tarjeta 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="gu.jpg" class="card-img-top" alt="Servicio social de la guardia romana">
+        <div class="card-body">
+          <h5 class="card-title">Servicio social de la guardia romana</h5>
+          <p class="card-text">Inscripciones abiertas</p>
+          <a href="pagina4.html" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+    <!-- Tarjeta 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="co.jpg" class="card-img-top" alt="Servicio social de Consotá">
+        <div class="card-body">
+          <h5 class="card-title">Servicio social de Consotá</h5>
+          <p class="card-text">Inscripciones abiertas</p>
+          <a href="pagina5.html" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS y jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

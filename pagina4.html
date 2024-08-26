@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Energía</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000000;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Fondo degradado */
+    }
+    .navbar-custom {
+      background-color: #000000;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .navbar-custom .navbar-brand {
+      color: #29ad37;
+      font-weight: bold;
+      font-size: 1.75rem;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      transition: color 0.3s ease-in-out;
+    }
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #29ad37;
+    }
+    .bubble-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .bubble {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+      color: #29ad37; /* Verde */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .bubble img {
+      max-width: 80px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .bubble h5 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .bubble p {
+      font-size: 0.9rem;
+      color: #e0e0e0;
+    }
+    .bubble:hover {
+      transform: translateY(-10px);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#">Guardia Romana</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="info.html">Volver</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="inscripcion.html">Inscribirse</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container">
+  <div class="bubble-container">
+    <!-- Burbuja 1 -->
+    <div class="bubble">
+      <img src="s.PNG" alt="Responsabilidad Social">
+      <h5>Responsabilidad Social</h5>
+      <p>Fortalecemos el compromiso con los grupos de interés, haciendo énfasis en la dimensión social, ambiental y económica.</p>
+    </div>
+    <!-- Burbuja 2 -->
+    <div class="bubble">
+      <img src="fo.PNG" alt="Fomento a la Religión">
+      <h5>Fomento a la Religión</h5>
+      <p>Prevenir, mitigar, compensar y corregir los impactos ambientales negativos.</p>
+    </div>
+    <!-- Burbuja 3 -->
+    <div class="bubble">
+      <img src="ej.PNG" alt="Ejercicio">
+      <h5>Ejercicio</h5>
+      <p>Promover y fortalecer comportamientos seguros en el trabajo, aumentando la calidad operacional.</p>
+    </div>
+    <!-- Burbuja 4 -->
+    <div class="bubble">
+      <img src="ac.PNG" alt="Actos Comunitarios">
+      <h5>Actos Comunitarios</h5>
+      <p>Desarrollar competencias y habilidades para promover el empleo y la inclusión social productiva.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS y jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
